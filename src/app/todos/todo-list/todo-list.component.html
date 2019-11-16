@@ -1,0 +1,3 @@
+<input type="text" #newTodo>
+<button (click)="addTodo(newTodo.value); newTodo.value=''">Add a todo</button>
+<app-todo-item (markedForDeletion)="deleteTodo(todo.id)" (toggled)="updateTodo(todo.id, todo)" *ngFor="let todo of todos" [todo]="todo"></app-todo-item>
