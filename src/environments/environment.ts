@@ -4,7 +4,15 @@
 
 export const environment = {
   production: false,
-  todosApi: 'https://jsonplaceholder.typicode.com/todos'
+  todosApi: 'https://jsonplaceholder.typicode.com/todos',
+  apiKey: '',
+  authDomain: '',
+  databaseURL: '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: '',
+  appId: '',
+  measurementId: ''
 };
 
 /*
